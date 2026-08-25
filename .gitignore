@@ -1,0 +1,7 @@
+.DS_Store
+.venv/
+*.db
+*.sqlite
+*.sqlite3
+*.tmp
+*.part
