@@ -25,6 +25,14 @@ The application repository contains the acquisition scripts and the data
 repository contains their outputs. `SENTIMENT_DATA_ROOT` is required by the
 application acquisition tools; set it explicitly whenever running them.
 
+## Functional Six-Company Snapshot
+
+The previous-calendar-quarter SEC earnings-release manifest includes a bounded
+functional snapshot for `AAPL`, `MSFT`, `NVDA`, `JPM`, `XOM`, and `JNJ`. Each of
+these records has a raw-content checksum and a corresponding cached source file.
+This snapshot is for local application verification, not the final five-year
+thesis corpus or held-out evaluation set.
+
 ## Reproducibility
 
 Keep source URLs, publication dates, source identifiers, retrieval dates, and

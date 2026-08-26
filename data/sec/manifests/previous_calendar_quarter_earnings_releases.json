@@ -2,6 +2,7 @@
   "failures": [],
   "form": "8-K",
   "item": "2.02",
+  "functional_universe": ["AAPL", "MSFT", "NVDA", "JPM", "XOM", "JNJ"],
   "period": {
     "end": "2026-06-30",
     "start": "2026-04-01"
@@ -14,6 +15,7 @@
       "items": "2.02,9.01",
       "primary_document": "aapl-20260430.htm",
       "report_date": "2026-04-30",
+      "raw_sha256": "9766047ae92aa399e06aacdb457e2a38ca39aeb568dbd8d57e9211097d6698ad",
       "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000011/0000320193-26-000011.txt",
       "ticker": "AAPL"
     },
@@ -318,6 +320,28 @@
       "ticker": "ISRG"
     },
     {
+      "accession_number": "0000200406-26-000076",
+      "cik": "0000200406",
+      "filed_at": "2026-04-14",
+      "items": "2.02,8.01,9.01",
+      "primary_document": "jnj-20260414.htm",
+      "report_date": "2026-04-14",
+      "raw_sha256": "025e4a9a9fd920886297bef779d97d54174a6f57a2bd8d6c2ff3a7b3c3fcf1e1",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000076/0000200406-26-000076.txt",
+      "ticker": "JNJ"
+    },
+    {
+      "accession_number": "0001628280-26-024990",
+      "cik": "0000019617",
+      "filed_at": "2026-04-14",
+      "items": "2.02,9.01",
+      "primary_document": "jpm-20260414.htm",
+      "report_date": "2026-04-14",
+      "raw_sha256": "3e7fd2fac1412bf939956288fb3ebcf96d084cd94ece64bd2edc30d42dc1cee5",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026024990/0001628280-26-024990.txt",
+      "ticker": "JPM"
+    },
+    {
       "accession_number": "0001397187-26-000077",
       "cik": "0001397187",
       "filed_at": "2026-06-04",
@@ -364,6 +388,7 @@
       "items": "2.02,9.01",
       "primary_document": "msft-20260429.htm",
       "report_date": "2026-04-29",
+      "raw_sha256": "94d98a7d8ea869c54d7a4044d880ba2aa860156cae7c9ac8208fd70ad5e61b7d",
       "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191457/0001193125-26-191457.txt",
       "ticker": "MSFT"
     },
@@ -376,6 +401,17 @@
       "report_date": "2026-05-07",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1854964/000185496426000016/0001854964-26-000016.txt",
       "ticker": "NLCP"
+    },
+    {
+      "accession_number": "0001045810-26-000051",
+      "cik": "0001045810",
+      "filed_at": "2026-05-20",
+      "items": "2.02,9.01",
+      "primary_document": "nvda-20260520.htm",
+      "report_date": "2026-05-20",
+      "raw_sha256": "79a44c42cee4fab279c8fd5ef56248584b1f52d6c7ac0093117c388fa0d808a6",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/0001045810-26-000051.txt",
+      "ticker": "NVDA"
     },
     {
       "accession_number": "0001506293-26-000066",
@@ -566,6 +602,17 @@
       "report_date": "2026-05-06",
       "source_url": "https://www.sec.gov/Archives/edgar/data/106640/000010664026000031/0000106640-26-000031.txt",
       "ticker": "WHR"
+    },
+    {
+      "accession_number": "0000034088-26-000065",
+      "cik": "0000034088",
+      "filed_at": "2026-05-01",
+      "items": "2.02,7.01",
+      "primary_document": "xom-20260501.htm",
+      "report_date": "2026-05-01",
+      "raw_sha256": "3ae7f4c3a3abf3e2af36480a74b16c64981b9631f50d1dc1c9e5e01338abd56c",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/34088/000003408826000065/0000034088-26-000065.txt",
+      "ticker": "XOM"
     },
     {
       "accession_number": "0001585521-26-000069",
