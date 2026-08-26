@@ -22,9 +22,8 @@ export SENTIMENT_DATA_ROOT=/Users/jan/private/sentimentAI-data
 ```
 
 The application repository contains the acquisition scripts and the data
-repository contains their outputs. The default root is the current working
-directory for local tooling compatibility; use the environment variable when
-working with this repository.
+repository contains their outputs. `SENTIMENT_DATA_ROOT` is required by the
+application acquisition tools; set it explicitly whenever running them.
 
 ## Reproducibility
 
